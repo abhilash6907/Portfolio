@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './routes/Home';
 import Project from './routes/Project';
+import SkillBridge from './routes/SkillBridge';
 import About from './routes/About';
 import Contact from './routes/Contact';
 
@@ -13,7 +14,8 @@ function App() {
     <>
     <Routes>
       <Route path= "/" element={<Home/>}/>
-      <Route path="/Project" element={<Project/>}/>
+  <Route path="/Project" element={<Project/>}/>
+  <Route path="/SkillBridge" element={<SkillBridge/>}/>
       <Route path="/About" element={<About/>}/>
       <Route path="/Contact" element={<Contact/>}/>
       <Route path="" element={<Project/>}/>

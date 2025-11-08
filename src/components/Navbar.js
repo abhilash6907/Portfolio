@@ -35,6 +35,9 @@ export default function Navbar() {
     <Link to= "/Project">Project</Link>
   </li>
   <li>
+    <Link to= "/SkillBridge">SkillBridge</Link>
+  </li>
+  <li>
     <Link to= "/About">About</Link>
   </li>
   <li>
